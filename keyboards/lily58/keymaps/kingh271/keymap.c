@@ -1,5 +1,13 @@
 #include QMK_KEYBOARD_H
 #include "kingh271.h"
+enum userspace_layers {
+  _COLEMAK = 0,
+  _GAME,
+  _QWERTY,
+  _NUM,
+  _NAV,
+  _FN
+};
 
 extern uint8_t is_master;
 
